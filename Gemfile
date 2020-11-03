@@ -9,7 +9,7 @@ gem "puma", "~> 4.1"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "rack-cors", require: "rack/cors"
 gem 'active_model_serializers'
-
+gem 'active_model_validates_intersection_of'
 
 group :development, :test do
   gem "rspec-rails"
